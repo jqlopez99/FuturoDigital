@@ -1,0 +1,227 @@
+*{ 
+    margin:0;
+    padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+
+body {
+    background-color: #eeebdd
+}
+
+/* TITULO */ 
+.indexTitulo { 
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.titulo { 
+    color: #1b1717;  
+    font-size: 80px;  
+}
+.titulo2 { 
+    color: #630000;      
+    font-size: 80px;  
+}
+
+/* MENU NAVEGACION */
+#menu ul{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
+
+#menu li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+
+#menu li a {
+    padding: 2px 7px 2px 7px;
+    color:  #1b1717;
+    background-color: #810000;
+    border: 1px solid #630000;
+    text-decoration: none;
+ }
+#menu li a:hover{
+    background-color: #1b1717;
+    color: #630000;
+ }
+
+/* CAROUSEL INDEX */
+.repreIndex { 
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #1b1717;
+    text-decoration: overline;
+}
+
+
+/* NOTICIAS INDEX */
+.noticiasIndex {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 25px;
+    text-align: center;
+    color:  #630000;
+    text-decoration: overline;
+}
+
+.tamaño { 
+    width: 420px;
+    height: 250px;
+}
+
+.texxto {
+    padding-top: 25px;
+    color:#1b1717;
+    font-size: 14px;
+}
+
+.flexing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+/* NOSOTROS - TITULO */
+@media (min-width: 500px){
+.flexNosotros {
+    padding-top: 20px;
+    margin-left: 175px;
+    width:fit-content;
+}
+}
+/* NOSOTROS - VIÑETAS */ 
+@media (min-width: 400px) {
+.gridItems { 
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr;
+    grid-column-gap: 20px; 
+    padding-top: 80px;  
+}
+}
+
+.viñetaNosotros {
+    text-align: center;
+    color:#1b1717;
+    
+}
+.subrayado {
+    text-decoration: overline;
+    font-size: 25px;
+}
+
+/* SOCIAL MEDIA */
+.socialM { 
+    text-align: center;
+    padding-top: 40px;
+    font-size: 14px;
+    color:#630000;
+    text-decoration: overline;
+    padding-top: 200px;
+}
+
+.iconos { 
+    width: 50px;
+    height: 50px;
+}
+
+#iconosIndex { 
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* JUGADORES */
+@media (min-width: 400px) {
+.tituloJug { 
+    color: #630000;      
+    font-size: 80px;  
+}
+    
+.tituloJug1 { 
+    color:#1b1717;      
+    font-size: 80px;  
+    margin-left: 175px;
+}
+}
+.descubre {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.jugadoresImg { 
+    width: 300px;
+    height: 300px;
+}
+/* JUGADORES - grid */
+
+.flexy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fortalezas2 {
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+    color: #1b1717;
+    
+}
+.fortalezas {
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+    color: #630000;
+}
+
+.orden {
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
