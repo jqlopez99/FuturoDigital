@@ -1,0 +1,235 @@
+*{ 
+    margin:0;
+    padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+
+body {
+    background-color: #CCCCCC
+}
+
+/* TITULO */ 
+.indexTitulo { 
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.titulo { 
+    color: #000000;  
+    font-size: 80px;  
+}
+.titulo2 { 
+    color: #9F111B;      
+    font-size: 80px;  
+}
+
+/* MENU NAVEGACION */
+#menu ul{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
+
+#menu li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+
+#menu li a {
+    padding: 2px 7px 2px 7px;
+    color:  #000000;
+    background-color: #9F111B;
+    border: 1px solid #9F111B;
+    text-decoration: none;
+ }
+#menu li a:hover{
+    background-color: #000000;
+    color: #9F111B;
+ }
+
+/* CAROUSEL INDEX */
+.repreIndex { 
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #1b1717;
+    text-decoration: overline;
+}
+
+
+/* NOTICIAS INDEX */
+.noticiasIndex {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 25px;
+    text-align: center;
+    color:  #9F111B;
+    text-decoration: overline;
+}
+
+.tamaño { 
+    width: 420px;
+    height: 250px;
+}
+
+.texxto {
+    padding-top: 25px;
+    color:#000000;
+    font-size: 14px;
+}
+
+.flexing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+/* NOSOTROS - TITULO */
+
+.flexNosotros {
+    text-align: center;
+    padding-top: 20px;
+}
+/* NOSOTROS - VIÑETAS */ 
+
+.gggrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    padding-top: 50px;
+  }
+
+.viñetaNosotros {
+    text-align: center;
+    color:#000000; 
+}
+.subrayado {
+    text-decoration: overline;
+    font-size: 25px;
+}
+/* SOCIAL MEDIA */
+.socialM { 
+    text-align: center;
+    padding-top: 40px;
+    font-size: 14px;
+    color:#9F111B;
+    text-decoration: overline;
+    padding-top: 200px;
+}
+
+.iconos { 
+    width: 50px;
+    height: 50px;
+}
+
+#iconosIndex { 
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* JUGADORES */
+.tituloJug { 
+    color: #9F111B;      
+    font-size: 80px;  
+}
+    
+.tituloJug1 { 
+    color:#000000;      
+    font-size: 80px;  
+    margin-left: 175px;
+}
+
+.descubre {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.jugadoresImg { 
+    width: 300px;
+    height: 300px;
+}
+/* JUGADORES - grid */
+
+.flexy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fortalezas2 {
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+    color: #000000;
+    
+}
+.fortalezas {
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+    color: #9F111B;
+}
+
+.orden {
+    justify-content: center;
+}
+
+/* CONTACTO - FORMULARIO */ 
+.colorrr {
+    background-color: #9F111B;
+    color: #000000;
+}
+@media (min-width: 600px) {
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin-left: 175px;
+}
+
+.iff {
+    padding-top: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
